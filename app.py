@@ -1,3 +1,6 @@
+import os
+os.environ["STREAMLIT_SUPPRESS_CONFIG_WARNINGS"] = "1"
+
 import streamlit as st
 import pickle
 import re
